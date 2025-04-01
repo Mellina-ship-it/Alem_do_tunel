@@ -102,8 +102,10 @@ Contribuições são bem-vindas! Se você quiser melhorar o jogo, siga os passos
 ## 👏 Créditos
 
 - **Desenvolvido por:** [Vivian Kaori Umaki](https://github.com/vivikari) e [Mellina Bizinoto Pádua](https://github.com/Mellina-ship-it)
-- **Inspiração:** Baseado no filme A Viagem de Chihiro, de Hayao Miyazaki
-- **Filme:** Trailer: https://www.youtube.com/watch?v=fDUFP7EeXLE; Filme: https://www.netflix.com/title/60023642; Sobre: https://pt.wikipedia.org/wiki/A_Viagem_de_Chihiro
+- **Inspiração:** Baseado no filme A Viagem de Chihiro, de Hayao Miyazaki;
+- **Trailer:** https://www.youtube.com/watch?v=fDUFP7EeXLE;
+- **Filme:** https://www.netflix.com/title/60023642
+- **Sobre:** https://pt.wikipedia.org/wiki/A_Viagem_de_Chihiro
 - **Imagens:** [Fonte das Imagens] https://drive.google.com/file/d/1kJyiTOtUYghjNzSaN9bJJhwxIORTlP7r/view?usp=sharing
 
 ---
