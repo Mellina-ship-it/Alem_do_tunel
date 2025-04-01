@@ -57,13 +57,14 @@ Para rodar o jogo localmente, siga os passos abaixo:
 
 O jogo é dividido em **5 fases**, cada uma com suas próprias escolhas e desafios:
 
-1. **Fase 1:** O túnel das Sombras
+1. **Fase 1:** O Túnel das Sombras
 2. **Fase 2:** O Banquete Proibido
 3. **Fase 3:** Ajudando na Casa de Banhos
 4. **Fase 4:** O Espírito Fedido
 5. **Fase 5:** Sem Rosto e o Caos
-6. **Fase 6:** A Jornada até Zeniba
-7. **Fase 7:** O Caminho até a Verdade
+6. **Fase 6:** O Trem Fantasma
+7. **Fase 7:** O Encontro com Zeniba
+8. **Fase 7:** O Caminho até a Verdade
 
 ---
 
@@ -98,18 +99,12 @@ Contribuições são bem-vindas! Se você quiser melhorar o jogo, siga os passos
 
 ---
 
-## 📜 Licença
-
-Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
 ## 👏 Créditos
 
 - **Desenvolvido por:** [Vivian Kaori Umaki](https://github.com/vivikari) e [Mellina Bizinoto Pádua](https://github.com/Mellina-ship-it)
 - **Inspiração:** Baseado no filme A Viagem de Chihiro, de Hayao Miyazaki
 - **Filme:** Trailer: https://www.youtube.com/watch?v=fDUFP7EeXLE; Filme: https://www.netflix.com/title/60023642; Sobre: https://pt.wikipedia.org/wiki/A_Viagem_de_Chihiro
-- **Imagens:** [Fonte das Imagens](https://exemplo.com)
+- **Imagens:** [Fonte das Imagens] https://drive.google.com/file/d/1kJyiTOtUYghjNzSaN9bJJhwxIORTlP7r/view?usp=sharing
 
 ---
 
