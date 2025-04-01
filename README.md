@@ -1,5 +1,5 @@
 # Jogo Alem do Túnel
-**Além do Túnel** é um jogo de aventura em texto onde suas decisões afetam o destino da protagonista e de seus pais. Explore um mundo misterioso, resolva enigmas e descubra finais alternativos enquanto tenta salvar sua família de uma maldição sombria.
+**Além do Túnel** é um jogo de aventura inspirado em A Viagem de Chihiro, ele é um jogo em texto onde suas decisões afetam o destino da protagonista e de seus pais. Explore um mundo misterioso, resolva enigmas e descubra finais alternativos enquanto tenta salvar sua família de uma maldição sombria.
 Você é Chihiro, uma jovem que, ao atravessar um túnel misterioso com sua família, acaba se separando deles e descobre um mundo repleto de espíritos e seres mágicos. Para sobreviver, precisará trabalhar em uma Casa de Banhos Espirituais, enfrentar desafios enigmáticos e provar sua coragem. Cada escolha molda sua jornada – será que você conseguirá quebrar a maldição e encontrar o caminho de volta para casa?
 
 ---
