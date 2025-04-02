@@ -1,0 +1,170 @@
+/* RESET */
+/* Configuração inicial para remover margens, preenchimentos e configurar o box-sizing como border-box */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Configurações globais para o documento HTML */
+html, body {
+  width: 100%; /* Ocupa toda a largura disponível */
+  height: 100%; /* Ocupa toda a altura disponível */
+  font-family: 'Segoe UI', sans-serif; /* Define a fonte padrão */
+  overflow: hidden; /* Impede a barra de rolagem na tela */
+}
+
+/* Fundo do jogo */
+#background {
+  background-image: url('./assets/intro.jpg'); /* Imagem inicial do fundo */
+  background-size: cover; /* Faz a imagem preencher todo o espaço disponível */
+  background-position: center; /* Centraliza a imagem */
+  position: fixed; /* Fixa o fundo, não permite rolagem */
+  width: 100%; /* Largura total da tela */
+  height: 100%; /* Altura total da tela */
+  z-index: -1; /* Coloca o fundo atrás dos outros elementos */
+}
+
+/* MENU INICIAL */
+.menu {
+  position: absolute; /* Posiciona o menu de forma independente */
+  z-index: 3; /* Garante que o menu fique acima do fundo */
+  width: 100%; /* Ocupa toda a largura disponível */
+  height: 100%; /* Ocupa toda a altura disponível */
+  top: 0; /* Alinha ao topo */
+  left: 0; /* Alinha à esquerda */
+  background-image: url('./assets/imagem_menu.jpg'); /* Fundo do menu */
+  background-size: cover; /* Preenche o espaço com a imagem */
+  background-position: center; /* Centraliza a imagem */
+  display: flex; /* Usa flexbox para organizar o conteúdo */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+.menu::before {
+  content: ''; /* Insere um pseudo-elemento vazio para escurecer o fundo */
+  position: absolute; /* Posiciona sobre o fundo do menu */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ocupa toda a largura */
+  height: 100%; /* Ocupa toda a altura */
+  background: rgba(0, 0, 0, 0.7); /* Adiciona um filtro escuro */
+  z-index: -1; /* Posiciona atrás do conteúdo do menu */
+}
+
+.menu-content {
+  text-align: center; /* Centraliza o texto */
+  color: white; /* Define a cor do texto como branco */
+  max-width: 800px; /* Limita a largura máxima do conteúdo */
+  padding: 40px; /* Espaçamento interno ao redor do conteúdo */
+  background-color: rgba(0, 0, 0, 0.6); /* Fundo semi-transparente */
+  border-radius: 20px; /* Bordas arredondadas para suavidade visual */
+}
+
+.menu .title {
+  font-size: 3em; /* Tamanho grande para o título */
+  margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.description, .mechanics {
+  font-size: 1.1em; /* Define tamanho de fonte confortável para leitura */
+  margin-bottom: 30px; /* Espaçamento entre os elementos */
+  color: white; /* Mantém o texto branco */
+}
+
+.menu button {
+  font-size: 1.2em; /* Define tamanho da fonte do botão */
+  padding: 15px 30px; /* Adiciona espaçamento interno */
+  border: none; /* Remove borda do botão */
+  border-radius: 10px; /* Bordas arredondadas */
+  background-color: #444; /* Cor inicial do botão */
+  color: white; /* Cor do texto no botão */
+  cursor: pointer; /* Adiciona cursor de apontador ao botão */
+  transition: background 0.3s; /* Animação suave no hover */
+}
+
+.menu button:hover {
+  background-color: #666; /* Altera cor do botão ao passar o mouse */
+}
+
+/* JOGO */
+/* Configurações da área do jogo */
+.overlay {
+  width: 100%; /* Largura total */
+  height: 100%; /* Altura total */
+  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); /* Gradiente para o fundo */
+  display: flex; /* Flexbox para organizar conteúdo */
+  flex-direction: column; /* Orienta os elementos em coluna */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+  justify-content: flex-end; /* Alinha ao final da área */
+  padding: 40px; /* Espaçamento interno */
+}
+
+/* HUD (Heads-Up Display) */
+.hud {
+  width: 100%; /* Ocupa toda a largura disponível */
+  display: flex; /* Flexbox para organizar conteúdo */
+  justify-content: space-between; /* Espaça os elementos uniformemente */
+  padding: 10px 30px; /* Espaçamento interno */
+  font-size: 1em; /* Tamanho da fonte */
+  color: #ffffff; /* Cor do texto */
+  margin-bottom: auto; /* Adiciona espaço automático inferior */
+}
+
+/* Caixa principal do jogo */
+.game-box {
+  background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+  border-radius: 12px; /* Bordas arredondadas */
+  padding: 20px; /* Espaçamento interno */
+  width: 100%; /* Largura total */
+  max-width: 700px; /* Define largura máxima */
+  color: white; /* Cor do texto */
+}
+
+/* Nome do personagem */
+.character {
+  font-weight: bold; /* Deixa o texto em negrito */
+  margin-bottom: 10px; /* Espaçamento inferior */
+  font-size: 1.2em; /* Tamanho da fonte maior */
+}
+
+/* Diálogo do personagem */
+.dialogue {
+  margin-bottom: 20px; /* Espaçamento inferior */
+  font-size: 1em; /* Tamanho da fonte confortável */
+}
+
+/* Botões de escolhas */
+.choices button {
+  background-color: #444; /* Cor inicial do botão */
+  color: white; /* Cor do texto */
+  border: none; /* Remove borda */
+  padding: 10px; /* Espaçamento interno */
+  margin: 8px 0; /* Margem entre os botões */
+  width: 100%; /* Botões ocupam toda a largura */
+  border-radius: 6px; /* Bordas arredondadas */
+  cursor: pointer; /* Adiciona cursor de apontador */
+  font-size: 1em; /* Tamanho de fonte padrão */
+  transition: background 0.3s; /* Transição suave ao hover */
+}
+
+.choices button:hover {
+  background-color: #666; /* Cor do botão ao passar o mouse */
+}
+
+/* Cartão de transição entre fases */
+.fase-cartao {
+  position: absolute; /* Posiciona independentemente */
+  top: 20%; /* Alinha ao topo */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta para centralização */
+  background-color: rgba(0,0,0,0.5); /* Fundo semi-transparente */
+  padding: 30px 50px; /* Espaçamento interno */
+  border-radius: 20px; /* Bordas arredondadas */
+  font-size: 2em; /* Tamanho grande de fonte */
+  font-weight: bold; /* Texto em negrito */
+  color: white; /* Cor do texto */
+  z-index: 5; /* Garante que fique acima dos outros elementos */
+  display: none; /* Inicialmente oculto */
+}
+
