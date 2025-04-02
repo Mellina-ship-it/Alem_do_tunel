@@ -116,27 +116,3 @@ Contribuições são bem-vindas! Se você quiser melhorar o jogo, siga os passos
 
 Se você gostou do jogo, considere deixar uma ⭐ no repositório!
 
-```
-
----
-
-### **Como usar:**
-
-1. Copie o conteúdo acima para um arquivo chamado `README.md` na raiz do seu projeto.
-2. Substitua os placeholders (como `seu-usuario`, `https://exemplo.com`, etc.) pelas informações reais do seu projeto.
-3. Adicione capturas de tela reais do jogo no lugar dos placeholders de imagem.
-4. Se quiser, adicione um arquivo `LICENSE` com a licença MIT ou outra de sua preferência.
-
----
-
-### **Visualização:**
-
-Quando você adicionar esse `README.md` ao seu repositório no GitHub, ele será exibido de forma organizada e visualmente atraente, como mostrado abaixo:
-
-![Exemplo de README](https://via.placeholder.com/800x600)
-
----
-
-Agora seu projeto está pronto para ser compartilhado com o mundo! 🚀
-message.txt
-5 KB
