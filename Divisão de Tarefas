@@ -1,3 +1,5 @@
+                                                                                                                  
+Divisão de Tarefas
 📂 Divisão de Tarefas Vivian e Mellina
 Vivian: Foco na estrutura e lógica
 HTML:
@@ -29,6 +31,9 @@ perderVida: Reduzir vidas em situações específicas e reiniciar o jogo se as v
 
 ganharVida: Adicionar vidas como recompensa por ações no jogo.
 
+
+
+
 Local Storage:
 Integrar as funções para salvar e carregar o progresso do jogador:
 
@@ -40,9 +45,9 @@ limparLocalStorage: Limpar os dados do Local Storage para iniciar um novo jogo.
 
 Colaboração
 Mellina:
-Colaborar para integrar as funções de salvamento e carregamento (salvarJogo, carregarJogo, resetarJogo) ao fluxo geral do jogo.
+ Integrar as funções de salvamento e carregamento (salvarJogo, carregarJogo, resetarJogo) ao fluxo geral do jogo.
 
-Verificar que o layout do HTML se adapta ao estilo desejado.
+Verificar se o layout do HTML se adapta ao estilo desejado.
 
 Mellina: Foco na visualização e estilo
 CSS:
@@ -71,7 +76,7 @@ Colaborar para ajustar o layout no HTML e confirmar que os estilos são aplicado
 Testar como o sistema de vidas é exibido no HUD.
 
 Tarefas compartilhadas
-Documentação:
+Documentação(README.md):
 Criar e revisar o README.md para explicar o projeto, incluindo:
 
 Introdução ao jogo "Além do Túnel".
