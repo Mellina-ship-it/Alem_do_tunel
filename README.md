@@ -1,4 +1,4 @@
-# Jogo Alem do Túnel
+# Jogo Além do Túnel
 [![Jogue Aqui](https://img.shields.io/badge/Click%20para%20jogar-blue?style=for-the-badge)](https://alemdotunel.netlify.app/)
 
 **Além do Túnel** é um jogo de aventura inspirado em A Viagem de Chihiro, ele é um jogo em texto onde suas decisões afetam o destino da protagonista e de seus pais. Explore um mundo misterioso, resolva enigmas e descubra finais alternativos enquanto tenta salvar sua família de uma maldição sombria.
@@ -57,7 +57,7 @@ Para rodar o jogo localmente, siga os passos abaixo:
 
 ## 🎮 Fases do Jogo
 
-O jogo é dividido em **5 fases**, cada uma com suas próprias escolhas e desafios:
+O jogo é dividido em **7 fases**, cada uma com suas próprias escolhas e desafios:
 
 1. **Fase 1:** O Túnel das Sombras
 2. **Fase 2:** O Banquete Proibido
