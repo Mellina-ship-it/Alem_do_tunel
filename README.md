@@ -11,18 +11,18 @@ Você é Chihiro, uma jovem que, ao atravessar um túnel misterioso com sua fam�
 1. **Iniciar o Jogo:**
    - Clique no botão **"Iniciar Jogo"** na tela inicial.
    - Siga as instruções e escolha entre as opções apresentadas para avançar na história.
-   - Mecanica do jogo: A história avança conforme suas escolhas; 3 finais alternativos com base nas escolhas do jogador; O jogador iniciará com 3 vidas.
-
+   - Mecanica do jogo: A história avança conforme suas escolhas
+     
 2. **Tomar Decisões:**
    - Em cada fase, você terá várias escolhas. Cada decisão afetará o rumo da história.
    - Escolha sabiamente, pois algumas decisões podem levar a finais trágicos ou felizes.
 
 3. **Resolver Enigmas:**
    - Em certas fases, você precisará resolver enigmas para avançar.
-   - Se errar, perderá uma vida. Você começa com **3 vidas**.
+   - Se errar, perderá uma vida. Você começa com **5 vidas**.
 
 4. **Final do Jogo:**
-   - O jogo terá 3 finais distintos, dependendo das suas escolhas.
+   - O jogo terá 6 finais distintos, dependendo das suas escolhas.
    - Se perder todas as vidas, você pode reiniciar o jogo, ou a fase em que está, e tentar novamente.
 
 ---
@@ -72,7 +72,10 @@ O jogo é dividido em **8 fases**, cada uma com suas próprias escolhas e desafi
 
 ## 🏆 Finais
 
-O jogo possui **3 finais diferentes**:
+O jogo possui **6 finais diferentes:**
+- **Final O Silêncio Antes do Porco:** Chihiro fica para trás, do lado de fora do túnel, enquanto seus pais adentram a cidade espiritual e se transformam em porcos sozinhos.
+- **Final O Abandono dos Porcos:** Chihiro presencia a transformação de seus pais em porcos e, assustada, foge do local, deixando-os para trás.
+- **Final Entre Sombras e Saudade** Chihiro recusa a ajuda de Haku e, em seguida, desaparece da Ilha dos Espíritos.
 - **Final Verdadeiro:** Você salva seus pais e volta ao mundo real.
 - **Final Alternativo:** Você fica presa na Casa de Banhos.
 - **Final Sombrio:** Você se torna aprendiz de Madame Uzume.
